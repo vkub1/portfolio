@@ -1,8 +1,18 @@
 import React from 'react';
+import MainImage from './MainImage';
+import AboutSection from './AboutSection';
 
 const IndexPage = () => {
+    const onToggle = () => {
+        const aboutButton = document.querySelector('#about-me')
+        console.log(aboutButton)
+    }
+
     return (
-        <h1>Index Page</h1>
+        <>
+        <MainImage onToggle={onToggle}/>
+        <AboutSection onToggle={onToggle} />
+        </>
     )
 }
 

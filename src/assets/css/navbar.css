@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 32px;
+    margin: 64px auto 54px auto;
+}
+
+
+
+.link {
+    color: #33323D;
+    text-decoration: none;
+    margin: 9px 1vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.active.link {
+    color: #5FB4A2;
+}
+
+
+@media only screen and (max-width: 425px) {
+    header {
+        justify-content: space-between;
+        width: 77vw;
+        margin: 32px auto;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active{
+        width: 223px;
+        height: 186px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #menu-container {
+        position: absolute;
+        right: 32px;
+        top: 88px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 425px) {
+
+    header {
+        width: 100vw;
+    }
+
+    header div.icon{
+        display: none;
+    }
+
+    
+
+    
+
+    
+}
+
+
+
+

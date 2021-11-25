@@ -1,0 +1,96 @@
+
+
+
+#profile-picture {
+    width: 540px;
+    height: 600px;
+    background-image: url('../images/desktop/image-homepage-profile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#go-portfolio {
+    width: 202px;
+}
+
+.section.hidden {
+    display: none;
+}
+
+.section {
+    display: flex;
+}
+
+@media only screen and (min-width: 1001px) {
+    #about-me-section {
+        width: 77vw;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+
+    #profile-picture {
+        width: 540px;
+        height: 600px;
+        margin-right: 90px;
+        background-image: url('../images/desktop/image-homepage-profile.jpg');
+    }
+
+    #about-me-text p.body-1 {
+        width: 350px;
+    }
+
+    #about-me-text {
+        height: 600px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    
+    #about-me-text p.body-1 {
+        width: 339px;
+    }
+    
+    #about-me-text {
+        height: fit-content;
+    }
+
+    #about-me-section {
+        width: 100vw;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+
+    #profile-picture {
+        width: 281px;
+        height: 600px;
+        background-image: url('../images/tablet/image-homepage-profile.jpg');
+    }
+}
+
+/*mobile */
+@media only screen and (max-width: 600px) {
+    #profile-picture {
+        background-image: url('../images/mobile/image-homepage-profile.jpg');
+        width: 311px;
+        height: 346px;
+        align-self: center;
+    }
+
+    #about-me-section {
+        
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        width: 311px;
+        margin: 20px auto;
+    }
+
+    #about-me-text {
+        width: 311px;
+        height: fit-content;
+    }
+
+    #about-me-text p {
+        align-self: center;
+    }
+}

@@ -1,0 +1,149 @@
+.details-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#project-slider {
+    display: flex;
+    justify-content: center;
+    margin: 3vh auto;
+}
+
+#detail-body {
+    height: fit-content;
+}
+
+
+
+.slideText {
+    display: flex;
+    flex-direction: column;
+}
+
+.border.bottom {
+    margin-bottom: 30px;
+}
+
+#right-arrow {
+    margin-left: 20px;
+}
+
+#left-arrow {
+    margin-right: 20px;
+}
+
+.slider-link {
+    text-decoration: none;
+}
+
+.slider-link:hover {
+    background-color: #33323D;
+    color: white;
+}
+
+.slider-link:hover svg path {
+    fill:white
+}
+
+
+
+@media only screen and (min-width: 426px) and (max-width: 1000px) {
+    .text-card h2 {
+        margin-top: 32px;
+    }
+
+    .details-image {
+        width: 77vw;
+        height: 310px;
+        margin: 94px 39px 40px 40px;
+        padding: 0 auto;
+    }
+
+    #manage-details-picture {
+        background-image: url('../images/tablet/image-manage-hero.jpg');
+    }
+    
+    #fylo-details-picture {
+        background-image: url('../images/tablet/image-fylo-hero.jpg');
+    }
+    
+    #bookmark-details-picture {
+        background-image: url('../images/tablet/image-bookmark-hero.jpg');
+    }
+    
+    #insure-details-picture {
+        background-image: url('../images/tablet/image-insure-hero.jpg');
+    }
+}
+/*mobile */
+@media only screen and (min-width: 1001px) {
+    .details-image {
+        width: 77vw;
+        height: 500px;
+        margin: 8.02vh auto;
+        
+    }
+
+    #manage-details-picture {
+        background-image: url('../images/desktop/image-manage-hero.jpg');
+    }
+    
+    #fylo-details-picture {
+        background-image: url('../images/desktop/image-fylo-hero.jpg');
+    }
+    
+    #bookmark-details-picture {
+        background-image: url('../images/desktop/image-bookmark-hero.jpg');
+    }
+    
+    #insure-details-picture {
+        background-image: url('../images/desktop/image-insure-hero.jpg');
+    }
+
+    .slide {
+        width: 33.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*mobile */
+@media only screen and (max-width: 425px) {
+    .details-image {
+        width: 311px;
+        height: 140px;
+        margin: 20px auto;
+    }
+
+    #manage-details-picture {
+        background-image: url('../images/mobile/image-manage-hero.jpg');
+    }
+    
+    #fylo-details-picture {
+        background-image: url('../images/mobile/image-fylo-hero.jpg');
+    }
+    
+    #bookmark-details-picture {
+        background-image: url('../images/mobile/image-bookmark-hero.jpg');
+    }
+    
+    #insure-details-picture {
+        background-image: url('../images/mobile/image-insure-hero.jpg');
+    }
+
+    .text-card h2 {
+        margin-top: 0px;
+    }
+
+    .slide {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+

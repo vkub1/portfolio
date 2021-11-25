@@ -1,0 +1,92 @@
+
+
+div.intro-text {
+    width: 445px;
+    height: 357px;
+    padding-right: 3.82vw;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: white;
+}
+
+div.intro-text h1 {
+    flex-grow: 1;
+}
+
+#about-me {
+    background-color: #203A4C;
+    width: 200px;
+    height: 48px;
+    
+    display: flex;
+    align-items: center;
+}
+
+#down-arrows {
+    align-self: start;
+    background-color: #33323D;
+    height: inherit;
+}
+
+#down-arrows-icon {
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+}
+
+div#about-me p {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me.hover {
+    background-color: cadetblue;
+}
+
+#down-arrows.hover {
+    background-color: #2b7770;
+}
+
+@media only screen and (min-width: 601px) {
+    section.main-image {
+        display: flex;
+        width: 77vw;
+        height: 600px;
+        background-image: url('../images/desktop/image-homepage-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2.89vh auto;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .intro-text.mobile {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-image {
+        display: block;
+        width: 311px;
+        height: 271px;
+        margin: 40px auto;
+    }
+    section.main-image {
+        display: none;
+    }
+
+    .intro-text.mobile {
+        display: block;
+        width: 311px;
+        margin: 24px auto;
+        height: fit-content;
+    }
+}
+
+

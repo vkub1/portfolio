@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&display=swap');
+
+.link {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Ibarra Real Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+}
+
+h2 {
+    font-family: Ibarra Real Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+h3 {
+    font-family: Ibarra Real Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    
+    letter-spacing: -0.285714px; 
+}
+
+.body-1 {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+}
+
+p.cyan {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link.white{
+    color: white;
+}
+@media only screen and (max-width: 425px) {
+    .mobile h1 {
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        /* identical to box height, or 105% */
+
+        letter-spacing: -0.357143px;
+
+        color: #33323D;
+    }
+
+    .slideText h3 {
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 36px;
+        /* identical to box height, or 112% */
+
+        text-align: right;
+        letter-spacing: -0.285714px;
+
+        color: #33323D;
+        text-align: center;
+
+    }
+}
+
+
+
+

@@ -1,0 +1,126 @@
+
+
+    #get-in-touch {
+        display: flex;
+        width: 77vw;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    #in-touch-title {
+        width: 350px;
+        height: inherit;
+    }
+    
+    #in-touch-text {
+        height: fit-content;
+        width: 635px;
+        
+    }
+
+    #contact-me-text {
+        display: flex;
+        align-items: center;
+        height: inherit;
+        
+    }
+
+    #contact-page {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    #contact-me {
+        display: flex;
+        flex-direction: column;
+        width: 77vw;
+        height: fit-content;
+        margin: 0 auto;
+        
+    }
+    
+    #contact-me-title {
+        width: 350px;
+        height: inherit;
+    }
+    
+    
+    
+    #contact-bottom-border {
+        margin-top: 30px;
+    }
+    
+    #github-icon-button {
+        width: 208px;
+        justify-content: space-evenly;
+    } 
+    
+    #linked-in-button {
+        width: 208px;
+        justify-content: space-evenly;
+    }
+
+@media only screen and (max-width: 794px) {
+    #get-in-touch {
+        display: flex;
+        flex-direction: column;
+        width: 77vw;
+        height: 354px;
+        margin: 0 auto;
+    }
+
+    #in-touch-text {
+        height: 210px;
+        width: 77vw;
+    }
+}
+
+/*mobile */
+@media only screen and (max-width: 425px) {
+    #contact-page {
+        display: flex;
+        flex-direction: column;
+        width: 311px;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    #get-in-touch {
+        display: flex;
+        flex-direction: column;
+        width: 331px;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    #in-touch-title {
+        width: 311px;
+        height: 42px;
+    }
+    
+    #in-touch-text {
+        height: fit-content;
+        margin-top: 50px;
+        width: 311px;
+    }
+
+    #contact-me {
+        display: flex;
+        flex-direction: column;
+        width: 311px;
+        height: fit-content;
+        margin: 0 auto;
+        
+    }
+
+    #contact-me-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: inherit;
+    }
+
+}

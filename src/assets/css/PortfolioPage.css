@@ -1,0 +1,85 @@
+div#manage-picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#bookmark-picture {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#insure-picture {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div#fylo-picture {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 426px) {
+    div#manage-picture {
+        background-image: url('../images/desktop/image-portfolio-manage.jpg');
+    }
+    
+    div#bookmark-picture {
+        background-image: url('../images/desktop/image-portfolio-bookmark.jpg');
+    }
+    
+    div#insure-picture {
+        background-image: url('../images/desktop/image-portfolio-insure.jpg'); 
+    }
+    
+    
+    div#fylo-picture {
+        background-image: url('../images/desktop/image-portfolio-fylo.jpg');
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    div#manage-picture {
+        background-image: url('../images/mobile/image-portfolio-manage.jpg');
+    }
+    
+    div#bookmark-picture {
+        background-image: url('../images/mobile/image-portfolio-bookmark.jpg');
+    }
+    
+    div#insure-picture {
+        background-image: url('../images/mobile/image-portfolio-insure.jpg'); 
+    }
+    
+    
+    div#fylo-picture {
+        background-image: url('../images/mobile/image-portfolio-fylo.jpg');
+    }
+
+    #portfolio-page {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1000px) {
+    div#manage-picture {
+        background-image: url('../images/tablet/image-portfolio-manage.jpg');
+    }
+    
+    div#bookmark-picture {
+        background-image: url('../images/tablet/image-portfolio-bookmark.jpg');
+    }
+    
+    div#insure-picture {
+        background-image: url('../images/tablet/image-portfolio-insure.jpg'); 
+    }
+    
+    div#fylo-picture {
+        background-image: url('../images/tablet/image-portfolio-fylo.jpg');
+    }
+}
+
