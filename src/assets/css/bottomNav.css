@@ -2,6 +2,7 @@ div#bottom-nav {
     background: #33323D;
     color: white;
     width: 100vw;
+    margin-top: 5.8vh;
 }
 
 
@@ -86,3 +87,4 @@ div#footer-bar h2 {
         margin: 56px 43vw 40px 43vw;
     }
 }
+

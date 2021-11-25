@@ -25,7 +25,7 @@
     #about-me-section {
         width: 77vw;
         margin: 20px auto;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     #profile-picture {
